@@ -60,7 +60,6 @@ afterEvaluate {
                 groupId 'com.github.marufnwu'
                 artifactId getArtificatId()
                 version getVersionName()
-                artifact("$buildDir/outputs/aar/${getArtificatId()}-release.aar")
             }
         }
     }
