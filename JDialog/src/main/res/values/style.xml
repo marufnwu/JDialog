@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="JDialog.PositiveButton" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:background">@drawable/round_background</item>
+        <item name="cornerRadius">@dimen/_10sdp</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+</resources>

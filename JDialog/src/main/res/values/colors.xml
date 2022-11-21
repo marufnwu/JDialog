@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_order_color">?android:colorAccent</color>
+    <color name="dialog_body_text_color">?android:colorAccent</color>
+</resources>
