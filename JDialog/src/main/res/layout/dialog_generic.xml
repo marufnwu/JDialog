@@ -23,7 +23,7 @@
 
 
         <TextView
-            android:textColor="?android:colorAccent"
+            android:textColor="@color/jdialog_body_text_color"
             android:id="@+id/txtBody"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

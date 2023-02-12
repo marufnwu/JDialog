@@ -7,5 +7,5 @@
         android:right="10dp"
         android:left="10dp"/>
 
-    <solid android:color="@color/button_order_color"/>
+    <solid android:color="@color/jdialog_button_color"/>
 </shape>

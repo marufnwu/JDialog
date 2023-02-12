@@ -41,6 +41,7 @@ public class JDialog {
     private boolean cancelable = false;
     private JDialogImage image;
     private IconType iconType;
+    private boolean isBuild = false;
 
     public OnGenericDialogListener onGenericDialogListener;
     public OnPositiveButtonClickListener onPositiveButtonClickListener;
@@ -308,13 +309,17 @@ public class JDialog {
 
         imageUrl(null);
 
-
+        isBuild = true;
         return this;
 
 
     }
 
-    public void showDialog(){
+    public void showDialog() {
+
+        if(!isBuild){
+             throw new IllegalStateException("showDialog() method must be call after build() function");
+        }
 
         Activity acc = (Activity) context;
 
