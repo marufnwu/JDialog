@@ -70,4 +70,6 @@ imageUri function can accept JDialogImage class and JdialogImage has two field i
         .build()
         .showDialog()
 ```
+**[License](docs/LICENSE.md)**
 
+Project is published under the Apache 2.0 license. Feel free to clone and modify repo as you want, but don't forget to add reference to authors
